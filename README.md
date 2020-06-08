@@ -1,57 +1,65 @@
-![GitHub repo size](https://img.shields.io/github/repo-size/TeamDerUntergang/Telegram-UserBot?color=Blue&label=Repo%20Boyutu)
-![GitHub](https://img.shields.io/github/license/TeamDerUntergang/Telegram-UserBot?color=Orange&label=Lisans)
+# Paperplane userbot project
 
-# Seden-UserBot
-
-### CI derlemesi başarılı, ancak yerel olarak çalışırken hala sözdizimi hataları alıyorsanız, muhtemelen kaynakla ilgili bir sorun değil, python sürümünüzle alakalı bir sorun.
-
-### # Heroku Deploy
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/TeamDerUntergang/Telegram-UserBot/tree/seden)
+![logo](https://telegra.ph/file/73cf4c62b2c64f981961e.png)
 
 ```
 #include <std/disclaimer.h>
 /**
-    Telegram hesabınız yasaklanabilir.
-    Botun yanlış kullanımından sorumlu değilim sorumluluk size aittir.
-    Bu bot grupları verimli bir şekilde yönetmenin yanı sıra,
-    eğlenmek amacıyla tasarlanmıştır.
-    Grupları spamlayarak eğleneceğinizi düşünüyorsanız yanılıyorsunuz.
-    Herhangi bir spam ban yeme durumunda eğer gelipte hesabım banlandı diye yazarsanız
-    sadece size güleceğim.
+    Your Telegram account may get banned.
+    I am not responsible for any improper use of this bot
+    This bot is intended for the purpose of having fun with memes,
+    as well as efficiently managing groups.
+    You ended up spamming groups, getting reported left and right,
+    and you ended up in a Finale Battle with Telegram and at the end
+    Telegram Team deleted your account?
+    And after that, then you pointed your fingers at us
+    for getting your acoount deleted?
+    I will be rolling on the floor laughing at you.
 /**
 ```
 
-Python3 üzerinde bir sqlalchemy veritabanı ile çalışan modüler bir telegram Python kullanıcı Botu.
+## What is it?
 
-Bot PaperPlane tabanından alınarak, Türkçe'ye çevrilip birkaç özellik eklenmiştir. Eğlenceli özellikler [SkittBot](https://github.com/skittles9823/SkittBot)'dan alınmıştır. Son derece modüler ve kullanımı basit bir botdur.
+Paperplane is a modular Telegram userbot running on Python3, which can be coupled up with Mongo DB and a Redis backend.
 
-Bu botu yapılandırmak için wiki sayfasını kontrol edebilirsiniz [Wiki](https://github.com/TeamDerUntergang/Telegram-UserBot/wiki/Bot-Kurulum-Rehberi)
+Originally created by baalajimaestro, Paperplane is currently maintained by zakaryan2004. It started as a simple bot,
+which helped with group management, with lots of features from [SkittBot](https://github.com/skittles9823/SkittBot).
+It has since evolved, becoming extremely modular and simple to use.
 
-Herhangi bir istek & şikâyet & öneri varsa [destek grubundan](https://t.me/SedenUserBotSupport) bana ulaşabilirsiniz.
+## How do I use it?
 
-Lütfen kurulum talimatları için [Wiki](https://github.com/TeamDerUntergang/Telegram-UserBot/wiki/Bot-Kurulum-Rehberi) sayfasına gidin! Talimatı okumadan verilen sorulara cevap verilmeyecektir.
+For configuring Paperplane, you can checkout our [Wiki](https://wiki.raphielgang.org). Please, before asking us in our groups,
+make sure you have followed the Wiki and all the steps required.
 
-### Teşekkürler:
+Deploy Paperplane to Heroku:
+<p align="left"><a href="https://heroku.com/deploy"> <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy to Heroku" /></a></p>
 
-Bu proje boyunca bana yardımcı olan insanlara teşekkür etmek istiyorum:
+## Groups and support
 
-* [@YouTwitFace](https://github.com/YouTwitFace)
-* [@TheDevXen](https://github.com/TheDevXen)
-* [@Skittles9823](https://github.com/Skittles9823)
-* [@deletescape](https://github.com/deletescape)
-* [@songotenks69](https://github.com/songotenks69)
-* [@Ovenoboyo](https://github.com/Ovenoboyo)
-* [@SphericalKat](https://github.com/ATechnoHazard)
-* [@rupansh](https://github.com/rupansh)
+If you'd just like to know about new features, or announcements, you can join our [news channel](https://t.me/paperplanechannel).
+
+For discussion, bug reporting, and help, you can join [our discussion group](https://t.me/tgpaperplane).
+
+If you find a bug, don't be afraid to report it in our Telegram group or open an issue on this repository. As for unofficial
+forks of Paperplane, we will only assist with issues affecting our central repository, found on [this repo](https://github.com/RaphielGang/Telegram-Userbot).
+
+## Credits
+
+* [@baalajimaestro](https://github.com/baalajimaestro)
 * [@zakaryan2004](https://github.com/zakaryan2004)
+* [@raphielscape](https://github.com/raphielscape)
+* [@yshalsager](https://github.com/yshalsager)
 * [@kandnub](https://github.com/kandnub)
 * [@pqhaz](https://github.com/pqhaz)
-* [@yshalsager](https://github.com/yshalsager)
-* [@NaytSeyd](https://github.com/NaytSeyd)
-* [@ReversedPosix](https://github.com/ReversedPosix)
-* [@quiec](https://github.com/quiec)
-* [@erdemozdemir98](https://github.com/erdemozdemir98)
-* [@Sedenogen](https://github.com/ciyanogen)
-* [@frknkrc44](https://github.com/frknkrc44)
+* [@rupansh](https://github.com/rupansh)
+* [@Skittles9823](https://github.com/Skittles9823)
+* [@YouTwitFace](https://github.com/YouTwitFace)
+* [@TheDevXen](https://github.com/TheDevXen)
+* [@nysascape](https://github.com/nysascape)
+* [@RealAkito](https://github.com/RealAkito)
+* [@deletescape](https://github.com/deletescape)
+* [@gotenksIN](https://github.com/gotenksIN)
+* [@Ovenoboyo](https://github.com/Ovenoboyo)
+* [SphericalKat](https://github.com/ATechnoHazard)
 
-ve burada bahsedilmeyen daha birçok insan.
+and many more people who aren't mentioned here, but may be found in [Contributors](https://github.com/RaphielGang/Telegram-Paperplane/graphs/contributors) page.
